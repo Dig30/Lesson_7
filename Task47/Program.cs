@@ -4,8 +4,8 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-int m = ReadLineNumber("Введите целое число m:");
-int n = ReadLineNumber("Введите целое число n:");
+int m = ReadLineNumber("Введите размерность m массива:");
+int n = ReadLineNumber("Введите размерность n массива:");
 
 PrintArray(FillArrayRandom(m, n), m, n);
 
